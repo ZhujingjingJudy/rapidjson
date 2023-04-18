@@ -2326,6 +2326,7 @@ TEST(Reader, ParseNanAndInfinity) {
 
     TEST_NAN_INF("NaN", nan);
     TEST_NAN_INF("nan", nan);
+    TEST_NAN_INF("Nan", nan);
     TEST_NAN_INF("Inf", inf);
     TEST_NAN_INF("inf", inf);
     TEST_NAN_INF("Infinity", inf);
